@@ -1,0 +1,26 @@
+{
+  "name": "vue-navigator-share",
+  "version": "1.0.0",
+  "description": "A Vue component to use native sharing mechanism of the device as part of the Web Share API.",
+  "main": "NavigatorShare.vue",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBibiano/vue-share.git"
+  },
+  "keywords": [
+    "vue",
+    "VueJs",
+    "share",
+    "navigator.share",
+    "navigator"
+  ],
+  "author": "Gabriel Bibiano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielBibiano/vue-share/issues"
+  },
+  "homepage": "https://github.com/GabrielBibiano/vue-share#readme"
+}
