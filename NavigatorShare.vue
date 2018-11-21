@@ -41,7 +41,7 @@
             })
         } else {
           if (this.onError) {
-            this.onError();
+            this.onError('method not supported');
           }
         }
       }
