@@ -20,8 +20,8 @@ $ npm install --save vue-navigator-share
 
 ```HTML
 <navigation-share
-  on-error="function"
-  on-success="otherFunction"
+  v-bind:on-error="function"
+  v-bind:on-success="otherFunction"
   url="url_to_share"
   title="title_to_share"
   text="text_to_share"
@@ -53,7 +53,7 @@ export default {
 <navigation-share
   v-bind:on-error="onError"
   v-bind:on-success="onSuccess"
-  url="window.location.href"
+  v-bind:url="window.location.href"
   v-bind:title="document.title"
   text="Hello World"
 ></navigation-share>
