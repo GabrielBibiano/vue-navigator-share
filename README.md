@@ -10,11 +10,11 @@ $ npm install --save vue-navigator-share
 
 | prop | type | description | required |
 | ------ | ------ | ------ | ------ |
-| on-error | Function | criar novo módulo com os arquivos padrões necessários (boilerplate) | false |
-| on-success | Function | criar novos itens para o módulo como, sub módulos, views ou boilerplate para ajax | false |
-| url | String | mostrar instruções de como usar determinado comando | true |
-| title | String | mostra as informações sobre o módulo | false |
-| text | String | mostrar instruções de como usar determinado comando | false |
+| on-error | Function | callback on error | false |
+| on-success | Function | callback on success | false |
+| url | String | url to share | true |
+| title | String | title to share | false |
+| text | String | text to share | false |
 
 ## Usage
 
