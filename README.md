@@ -56,8 +56,8 @@ export default {
 <navigation-share
   v-bind:on-error="onError"
   v-bind:on-success="onSuccess"
-  v-bind:url="window.location.href"
-  v-bind:title="document.title"
+  v-bind:url="url"
+  v-bind:title="title"
   text="Hello World"
 ></navigation-share>
 ```

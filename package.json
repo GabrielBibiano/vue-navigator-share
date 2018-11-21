@@ -1,6 +1,6 @@
 {
   "name": "vue-navigator-share",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Vue component to use native sharing mechanism of the device as part of the Web Share API.",
   "main": "NavigatorShare.vue",
   "scripts": {
