@@ -12,7 +12,10 @@
     props: {
       title: String,
       text: String,
-      url: String,
+      url: {
+        type: String,
+        required: true
+      },
       onError: Function,
       onSuccess: Function,
     },
