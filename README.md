@@ -1,6 +1,9 @@
 # vue-navigator-share
 A Vue component to use native sharing mechanism of the device as part of the Web Share API.
 
+Support only https and mobile browser
+<a href="https://navigator-share.surge.sh/" target="_blank">Demo</a>
+
 ## Instalation
 ```sh
 $ npm install --save vue-navigator-share
@@ -57,4 +60,39 @@ export default {
   v-bind:title="document.title"
   text="Hello World"
 ></navigation-share>
+```
+
+
+```javascript
+<script>
+import NavigationShare from 'vue-navigator-share'
+
+export default {
+  name: 'app',
+  data () {
+    return {
+    }
+  },
+  components: {
+    NavigationShare
+  },
+  computed: {
+    url() {
+      return window.location.href;
+    },
+    title() {
+      return document.title;
+    }
+  },
+  methods: {
+    onError(err) {
+      alert(err);
+      console.log(err);
+    },
+    onSuccess(err) {
+      console.log(err);
+    }
+  }
+}
+</script>
 ```
