@@ -22,18 +22,18 @@ $ npm install --save vue-navigator-share
 ## Usage
 
 ```HTML
-<navigation-share
+<navigator-share
   v-bind:on-error="function"
   v-bind:on-success="otherFunction"
   url="url_to_share"
   title="title_to_share"
   text="text_to_share"
-></navigation-share>
+></navigator-share>
 ```
 
 ```javascript
 <script>
-import NavigationShare from 'vue-navigator-share'
+import NavigatorShare from 'vue-navigator-share'
 
 export default {
   name: 'app',
@@ -42,7 +42,7 @@ export default {
     }
   },
   components: {
-    NavigationShare
+    NavigatorShare
   },
   methods: {
   }
@@ -53,19 +53,19 @@ export default {
 ## Example
 
 ```HTML
-<navigation-share
+<navigator-share
   v-bind:on-error="onError"
   v-bind:on-success="onSuccess"
   v-bind:url="url"
   v-bind:title="title"
   text="Hello World"
-></navigation-share>
+></navigator-share>
 ```
 
 
 ```javascript
 <script>
-import NavigationShare from 'vue-navigator-share'
+import NavigatorShare from 'vue-navigator-share'
 
 export default {
   name: 'app',
@@ -74,7 +74,7 @@ export default {
     }
   },
   components: {
-    NavigationShare
+    NavigatorShare
   },
   computed: {
     url() {
